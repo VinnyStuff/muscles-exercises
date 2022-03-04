@@ -29,6 +29,7 @@ function turnOnCurrentMuscle(currentMuscle){
         currentMusclesIndex = document.getElementsByClassName(currentMuscle);
         for (let i = 0; i < currentMusclesIndex.length; i++) {
             currentMusclesIndex[i].style.fill = "Red";
+            currentMusclesIndex[i].style.cursor = "Pointer";
         }
     }
 }
