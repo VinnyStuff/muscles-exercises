@@ -1,24 +1,29 @@
-div{
-    background-color: aqua;
-    width: 800px;
-    height: 1000px;
+body{
+    margin: 0;
+}
+
+#muscle-map-container{
     position: relative;
 }
 
-div > *{
-    width: 100%;
-    max-height: 100%;
+.muscle-map{
     position: absolute;
 }
 
-
-#muscle > *{
-    fill: transparent;
+.muscle-map > *{
+    max-width: 100%;
+    max-height: 100%;
 }
 
-.muscle-enable{
-    fill: red;
+#muscle-map-svg{
+    z-index: 99;
+    pointer-events: none;
 }
-.muscle-disable{
+
+#muscle-map-enable-svg{
+    z-index: 98;
+}
+
+#muscle-map-enable-svg > svg > * { 
     fill: transparent;
 }
