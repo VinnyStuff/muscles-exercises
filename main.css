@@ -8,6 +8,8 @@ body{
 
 .muscle-map{
     position: absolute;
+    height: 1000px;
+    max-height: 900px;
 }
 
 .muscle-map > *{
@@ -27,3 +29,6 @@ body{
 #muscle-map-enable-svg > svg > * { 
     fill: transparent;
 }
+
+
+
