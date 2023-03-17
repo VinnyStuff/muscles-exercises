@@ -1,0 +1,13 @@
+.muscle-map-container{
+    position: absolute;
+    width: 500px;
+}
+
+.muscle-map{
+    z-index: 50;
+    pointer-events: none;
+}
+
+.muscle-map-enable{
+    z-index: 49;
+}   
